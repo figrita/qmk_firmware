@@ -20,12 +20,12 @@ EXTRAKEY_ENABLE = no	# Audio control and System control
 CONSOLE_ENABLE = no	# Console for debug
 COMMAND_ENABLE = no    # Commands for debug and configuration
 SLEEP_LED_ENABLE = no  # Breathing sleep LED during USB suspend
-NKRO_ENABLE = no	    # USB Nkey Rollover
+NKRO_ENABLE = yes    # USB Nkey Rollover
 BACKLIGHT_ENABLE = yes
 #BACKLIGHT_DRIVER = no
 RGBLIGHT_ENABLE = no
 ENCODER_ENABLE = no
-#MIDI_ENABLE = yes
+MIDI_ENABLE = yes
 
 LAYOUTS = ortho_5x15
 
