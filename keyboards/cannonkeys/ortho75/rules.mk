@@ -22,8 +22,9 @@ COMMAND_ENABLE = no    # Commands for debug and configuration
 SLEEP_LED_ENABLE = no  # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes    # USB Nkey Rollover
 BACKLIGHT_ENABLE = yes
-#BACKLIGHT_DRIVER = no
-RGBLIGHT_ENABLE = no
+#BACKLIGHT_DRIVER = yes
+#RGBLIGHT_ENABLE = yes
+IOS_DEVICE_ENABLE = yes
 ENCODER_ENABLE = no
 MIDI_ENABLE = yes
 
